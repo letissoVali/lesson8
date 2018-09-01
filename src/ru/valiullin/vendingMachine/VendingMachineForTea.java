@@ -1,4 +1,4 @@
-package ru.valiullin;
+package ru.valiullin.vendingMachine;
 
 public class VendingMachineForTea extends VendingMachine{
     private String[] hotDrinks = new String[] {"Чай черный", "Чай зеленый", "Кофе", "Кофе1", "Кофе2"};

@@ -1,4 +1,4 @@
-package ru.valiullin;
+package ru.valiullin.vendingMachine;
 
 public class VendingMachine {
     private double money = 0;
