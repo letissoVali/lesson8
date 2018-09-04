@@ -1,5 +1,5 @@
-import ru.valiullin.vendingMachine.VendingMachine;
-import java.util.Scanner;
+import ru.valiullin.TwoClasses.Contract;
+import ru.valiullin.TwoClasses.Utill;
 //import ru.valiullin.vendingMachine.VendingMachineForTea;
 
 //-------------------------------------------------------
@@ -12,15 +12,14 @@ import java.util.Scanner;
 //todo Реализовать два класса: договор и акт. В каждом сделать поля: номер, дата, список товаров (массив строк).
 //Написать класс со статическим методом конвертации договора в акт (на вход передавать договор, на выходе получаем акт).
 //--------------------------------------------------------
-//keep it simple или сделать проверку стоимости напитка?
 
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); //сканер - без объяснения
+/*        Scanner scanner = new Scanner(System.in); //сканер - без объяснения
         //заполняем" автомат напитками;
-        String[] someDrinks = new String[] {"Чай черный", "Чай зеленый", "Кофе черный", "Американо", "Капучино"};
-        VendingMachine vm = new VendingMachine(someDrinks);
+        final String[] SOMEDRINKS = new String[] {"Чай черный", "Чай зеленый", "Кофе черный", "Американо", "Капучино"};
+        VendingMachine vm = new VendingMachine(SOMEDRINKS);
 
         System.out.print("Введите денежные средства: ");
         if(scanner.hasNextDouble()){
@@ -35,10 +34,15 @@ public class Main {
             vm.giveMeADrink(drink);
         } else {
             System.out.println("Введите цифру напитка!!!");
-        }
-        /*VendingMachineForTea vmft = new VendingMachineForTea();
-        vmft.addMoney(150);
-        vmft.giveMeADrink(3);*/
+        }*/
+
+
+        //Calculator - working
+        //System.out.println(Calc.circumference(10));
+        //FinalConst.notFinal();
+        //Method.method();
+        Utill.util();
+
     }
 }
 

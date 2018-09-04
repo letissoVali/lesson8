@@ -34,7 +34,7 @@ public class VendingMachine {
                 System.out.println("Такого напитка нет!" + this.drinks.length);
             }
         } else {
-            System.out.println("Бесплатно не работаем!");
+            System.out.println("Автомат бесплатно не работает!!!");
         }
     }
 }
