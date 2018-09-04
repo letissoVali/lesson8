@@ -1,4 +1,4 @@
-package ru.valiullin.TwoClasses;
+package ru.valiullin.twoClasses;
 
 import java.util.Arrays;
 

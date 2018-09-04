@@ -1,6 +1,9 @@
-import ru.valiullin.TwoClasses.Contract;
-import ru.valiullin.TwoClasses.Utill;
-//import ru.valiullin.vendingMachine.VendingMachineForTea;
+import ru.valiullin.calc.*;
+import ru.valiullin.counter.*;
+import ru.valiullin.twoClasses.*;
+import ru.valiullin.vendingMachine.*;
+
+import java.util.Scanner;
 
 //-------------------------------------------------------
 //todo Исправить ошибку в программе «Вендинговый автомат» (проверку длинны массива перенести в другой метод).
@@ -16,7 +19,7 @@ import ru.valiullin.TwoClasses.Utill;
 
 public class Main {
     public static void main(String[] args) {
-/*        Scanner scanner = new Scanner(System.in); //сканер - без объяснения
+        Scanner scanner = new Scanner(System.in); //сканер - без объяснения
         //заполняем" автомат напитками;
         final String[] SOMEDRINKS = new String[] {"Чай черный", "Чай зеленый", "Кофе черный", "Американо", "Капучино"};
         VendingMachine vm = new VendingMachine(SOMEDRINKS);
@@ -34,13 +37,15 @@ public class Main {
             vm.giveMeADrink(drink);
         } else {
             System.out.println("Введите цифру напитка!!!");
-        }*/
-
+        }
 
         //Calculator - working
-        //System.out.println(Calc.circumference(10));
-        //FinalConst.notFinal();
-        //Method.method();
+        System.out.println(Calc.circumference(10));
+
+        FinalConst.notFinal();
+
+        Method.method();
+
         Utill.util();
 
     }

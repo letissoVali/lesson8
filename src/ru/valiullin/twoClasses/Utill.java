@@ -1,4 +1,4 @@
-package ru.valiullin.TwoClasses;
+package ru.valiullin.twoClasses;
 
 public class Utill {
     public static void util() {

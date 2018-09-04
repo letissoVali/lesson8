@@ -1,7 +1,6 @@
-package ru.valiullin.TwoClasses;
+package ru.valiullin.twoClasses;
 
 import java.util.Arrays;
-import java.util.Date;
 
 public class Contract {
     private int numberOfContract;
