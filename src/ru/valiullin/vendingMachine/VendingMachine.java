@@ -17,7 +17,7 @@ public class VendingMachine {
         //проверяем напиток
     protected String getDrink(int key){
         if(key >= this.drinks.length) {
-            return "none";
+            return null;
         } else {
             return this.drinks[key];
         }
@@ -28,7 +28,7 @@ public class VendingMachine {
     public void giveMeADrink(int key){
         if (this.money > 0) {
             String drink = getDrink(key);
-            if(drink != "none"){
+            if(drink != null){
                 System.out.println("Возьмите ваш напиток: " + drink);
             } else {
                 System.out.println("Такого напитка нет!" + this.drinks.length);
