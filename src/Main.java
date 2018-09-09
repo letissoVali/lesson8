@@ -19,7 +19,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in); //сканер - без объяснения
+/*        Scanner scanner = new Scanner(System.in); //сканер - без объяснения
         //заполняем" автомат напитками;
         final String[] SOMEDRINKS = new String[] {"Чай черный", "Чай зеленый", "Кофе черный", "Американо", "Капучино"};
         VendingMachine vm = new VendingMachine(SOMEDRINKS);
@@ -44,10 +44,13 @@ public class Main {
 
         FinalConst.notFinal();
 
-        Method.method();
+        Method.method();*/
 
-        Utill.util();
-
+        Contract contract = new Contract();
+        contract.setNumberOfContract(121548);
+        contract.setDate("2018-08-18");
+        contract.setListOfProducts(new String[]{"Product 1", "Product 2", "Product 3", "Product 4"});
+        Utill.convertToAct(contract);
     }
 }
 
